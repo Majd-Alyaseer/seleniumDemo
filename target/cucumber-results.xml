@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.938483">
+<testcase classname="Use google to search for an article about selenium" name="Open first link of selenium search result" time="17.938483">
+<system-out><![CDATA[Given Open google homepage..................................................passed
+And Check page title is "Google"............................................passed
+When Search for "Selenium" topic............................................passed
+Then Open first result......................................................passed
+And Check page title is "Selenium - Web Browser Automation".................passed
+]]></system-out>
+</testcase>
+</testsuite>

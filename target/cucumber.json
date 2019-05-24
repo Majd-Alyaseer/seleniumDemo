@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6954763200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeMethod.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Open first link of selenium search result",
+        "description": "",
+        "id": "use-google-to-search-for-an-article-about-selenium;open-first-link-of-selenium-search-result",
+        "after": [
+          {
+            "result": {
+              "duration": 84717900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterMethod.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "\u003ca href\u003d\u0027../ScreenShots/ScreenShot_1558648857835.png\u0027\u003e\u003cimg src\u003d\u0027../ScreenShots/ScreenShot_1558648857835.png\u0027 width\u003d\u0027100px\u0027height\u003d\u0027170px\u0027\u003e\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3311824900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open google homepage",
+            "match": {
+              "location": "NavigateToPage.openHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11794600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check page title is \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google",
+                  "offset": 21
+                }
+              ],
+              "location": "CheckPageTitle.checkTitle(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4352771600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search for \"Selenium\" topic",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 12
+                }
+              ],
+              "location": "SearchForTopic.search_for_topic(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "\u003ca href\u003d\u0027../ScreenShots/ScreenShot_1558648865162.png\u0027\u003e\u003cimg src\u003d\u0027../ScreenShots/ScreenShot_1558648865162.png\u0027 width\u003d\u0027100px\u0027height\u003d\u0027170px\u0027\u003e\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 3203143700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open first result",
+            "match": {
+              "location": "ClickLink.clickLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19467400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check page title is \"Selenium - Web Browser Automation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium - Web Browser Automation",
+                  "offset": 21
+                }
+              ],
+              "location": "CheckPageTitle.checkTitle(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Use google to search for an article about selenium",
+    "description": "",
+    "id": "use-google-to-search-for-an-article-about-selenium",
+    "keyword": "Feature",
+    "uri": "NewFeature.feature"
+  }
+]

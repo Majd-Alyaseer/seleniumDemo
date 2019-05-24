@@ -1,0 +1,10 @@
+Feature: Use google to search for an article about selenium
+[34m<a href='../ScreenShots/ScreenShot_1558648857835.png'><img src='../ScreenShots/ScreenShot_1558648857835.png' width='100px'height='170px'></a>[0m
+[34m<a href='../ScreenShots/ScreenShot_1558648865162.png'><img src='../ScreenShots/ScreenShot_1558648865162.png' width='100px'height='170px'></a>[0m
+
+  Scenario: Open first link of selenium search result           [90m# NewFeature.feature:3[0m
+    [32mGiven [0m[32mOpen google homepage[0m                                  [90m# NavigateToPage.openHomepage()[0m
+    [32mAnd [0m[32mCheck page title is "[0m[32m[1mGoogle[0m[32m"[0m                            [90m# CheckPageTitle.checkTitle(String)[0m
+    [32mWhen [0m[32mSearch for "[0m[32m[1mSelenium[0m[32m" topic[0m                            [90m# SearchForTopic.search_for_topic(String)[0m
+    [32mThen [0m[32mOpen first result[0m                                      [90m# ClickLink.clickLink()[0m
+    [32mAnd [0m[32mCheck page title is "[0m[32m[1mSelenium - Web Browser Automation[0m[32m"[0m [90m# CheckPageTitle.checkTitle(String)[0m

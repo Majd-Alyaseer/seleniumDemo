@@ -1,0 +1,87 @@
+[
+  {
+    "source": "^Open google homepage$",
+    "steps": [
+      {
+        "name": "Open google homepage",
+        "aggregatedDurations": {
+          "average": 3.3118249,
+          "median": 3.3118249
+        },
+        "durations": [
+          {
+            "duration": 3.3118249,
+            "location": "NewFeature.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Open first result$",
+    "steps": [
+      {
+        "name": "Open first result",
+        "aggregatedDurations": {
+          "average": 3.2031437,
+          "median": 3.2031437
+        },
+        "durations": [
+          {
+            "duration": 3.2031437,
+            "location": "NewFeature.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Search for \"([^\"]*)\" topic$",
+    "steps": [
+      {
+        "name": "Search for \"Selenium\" topic",
+        "aggregatedDurations": {
+          "average": 4.3527716,
+          "median": 4.3527716
+        },
+        "durations": [
+          {
+            "duration": 4.3527716,
+            "location": "NewFeature.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Check page title is \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Check page title is \"Google\"",
+        "aggregatedDurations": {
+          "average": 0.0117946,
+          "median": 0.0117946
+        },
+        "durations": [
+          {
+            "duration": 0.0117946,
+            "location": "NewFeature.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "Check page title is \"Selenium - Web Browser Automation\"",
+        "aggregatedDurations": {
+          "average": 0.0194674,
+          "median": 0.0194674
+        },
+        "durations": [
+          {
+            "duration": 0.0194674,
+            "location": "NewFeature.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]
